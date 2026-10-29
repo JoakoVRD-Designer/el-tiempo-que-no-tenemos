@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "han",
+    "file": "2015 Byung-Chul Han (3x4 cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Byung-Chul_Han_(3x4_cropped).jpg",
+    "author": "ActuaLitté",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "slug": "russell",
+    "file": "Bertrand Russell in 1936.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bertrand_Russell_in_1936.jpg",
+    "author": "Bassano Ltd",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  {
+    "slug": "freire",
+    "file": "Paulo Freire 1977.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paulo_Freire_1977.jpg",
+    "author": "Slobodan Dimitro",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "slug": "kant",
+    "file": "Immanuel Kant - Gemaelde 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg",
+    "author": "\nJohann Gottlieb Becker (1720-1782)",
+    "license": "Public domain",
+    "license_url": ""
+  }
+]
