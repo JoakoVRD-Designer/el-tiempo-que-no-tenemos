@@ -151,3 +151,16 @@ document.addEventListener('scroll', () => {
 }, {passive: true});
 window.addEventListener('resize', updateProgress);
 updateProgress();
+
+const chapterLinks = [...document.querySelectorAll('.mobile-chapters a')];
+const chapterObserver = new IntersectionObserver(entries => {
+  for (const entry of entries) {
+    if (entry.isIntersecting) {
+      chapterLinks.forEach(link => {
+        if (link.hash === '#' + entry.target.id) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    }
+  }
+}, {rootMargin: '-10% 0px -65% 0px'});
+chapterLinks.forEach(link => chapterObserver.observe(document.querySelector(link.hash)));

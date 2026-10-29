@@ -46,3 +46,5 @@ Videos adicionales de Mixkit, bajo Stock Video Free License:
 
 - https://mixkit.co/free-stock-video/book-being-leafed-through-seen-in-detail-3819/
 - https://mixkit.co/free-stock-video/operation-of-a-typewriter-viewed-in-detail-10397/
+
+- Detalles finales: tres dibujos propios de libro, cuaderno y pluma exportados a PNG con transparencia; GIF miniatura de cuaderno de aproximadamente 23 kB; frase destacada y navegación inferior para celular. Los SVG originales de los dibujos también se incluyen.
