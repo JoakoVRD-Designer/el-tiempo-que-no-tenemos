@@ -17,3 +17,8 @@ const form=document.getElementById('reflection-form');const status=document.getE
 form.addEventListener('submit',event=>{event.preventDefault();if(!form.elements.opinion.value.trim()){status.textContent='Escribe tu reflexión antes de guardarla.';return}try{localStorage.setItem('schole-reflection',JSON.stringify({thinker:form.elements.thinker.value,opinion:form.elements.opinion.value}));status.textContent='Listo, guardamos tu reflexión en este navegador.'}catch{status.textContent='El navegador no permitió guardar el borrador. Copia tu texto para conservarlo.'}});
 
 const ambientVideo=document.querySelector(".debate-video");if(ambientVideo){ambientVideo.playbackRate=.7;if(reduce)ambientVideo.pause();else new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting)ambientVideo.play().catch(()=>{});else ambientVideo.pause()}},{threshold:.08}).observe(ambientVideo)}
+
+const inkQuestion=document.querySelector('.ink-question');
+if(inkQuestion){if(reduce)inkQuestion.classList.add('is-visible');else new IntersectionObserver((entries,observer)=>{for(const entry of entries){if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}},{threshold:.6}).observe(inkQuestion)}
+const notebookMotion=document.querySelector('.notebook-motion');
+if(notebookMotion&&!reduce){const poster=notebookMotion.getAttribute('src');new IntersectionObserver(entries=>{for(const entry of entries){notebookMotion.src=entry.isIntersecting?notebookMotion.dataset.motionSrc:poster}},{rootMargin:'100px'}).observe(notebookMotion)}

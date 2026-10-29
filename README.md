@@ -23,3 +23,6 @@ Presentación filosófica sobre educación, autonomía, sobrecarga y tiempo libr
 - Tipografía servida por Google Fonts. El diseño incluye fuentes de respaldo.
 
 - Logos de INSUCO Chillán y COMEDUC: composición oficial de https://insucochillan.cl/, rasterizada desde SVG a PNG transparente, conservando formas y colores.
+
+- Cuaderno y café de Mixkit, https://mixkit.co/free-stock-video/writing-on-a-notebook-at-a-coffee-shop-1741/ — Stock Video Free License. Fragmento de cuatro segundos convertido a GIF, con imagen fija para movimiento reducido.
+- El GIF se carga cerca de la vista y vuelve a imagen fija al salir. El trazo de tinta se dibuja una vez al llegar a la pregunta.
